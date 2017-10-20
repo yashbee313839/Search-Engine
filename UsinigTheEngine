@@ -1,0 +1,6 @@
+To use the search engine properly, follow the given steps.
+1. Import SearchFinal for accessing both function 
+2. Run the crawler function first to go through all the webpages and record entries for search engine index.
+   While running crawler specify the database name you want so that it can be accessed for searching.
+3. Create an object for the searcher class and pass the above database as argument.
+4. Run the query command to give results.
