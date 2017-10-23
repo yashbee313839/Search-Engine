@@ -33,7 +33,7 @@ class crawler:
             word=words[i]
             if word in ignr: continue
             wordid=self.getentryid('wordlist', 'word', word)
-            self.con.execute("insert into wordlocation(urlid, wordid, location) \
+            self.con.execute("insert into wordlocation(urlid, wordid, location) 
                     values(%d, %d, %d)"%(urlid, wordid, i))
 
     def gettextonly(self, soup):
